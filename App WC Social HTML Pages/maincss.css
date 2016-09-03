@@ -19,8 +19,14 @@ body {
 .nav li a {
     display: block;
     line-height: 3em;
-    width: 100%;
+    width: 50%;
     text-decoration: none;
 }
+iframe:focus {
+    outline: none;
+}
 
+iframe[seamless] {
+    display: block;
+}
  

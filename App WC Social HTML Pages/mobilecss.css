@@ -1,12 +1,13 @@
-body {
+    body {
     margin: 0;
     padding: 0;
-    font-size: 95%;
+    font-size: 100%;
 }
 .left {
     width: 15%;
     float: left;
 }
+
 .nav {
     margin: 0;
     padding: 0;
@@ -24,14 +25,12 @@ body {
 }
 iframe:focus {
     outline: none;
-	height: 1500px;
-	width: 800px;
+	height: 10000px;
+	width:600px;
 
+	
 }
-
-
-
-
-
-
- 
+img{
+	height: 50px;
+	width: 50px;
+}

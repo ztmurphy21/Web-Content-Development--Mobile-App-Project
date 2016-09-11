@@ -24,12 +24,15 @@ body {
 }
 iframe:focus {
     outline: none;
-	height: 1500px;
+	height: 10000px;
 	width: 800px;
 
 }
 
-
+img{
+	height: 150px;
+	width: 150px;
+}
 
 
 

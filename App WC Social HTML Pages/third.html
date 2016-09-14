@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Third App</title>
+	<meta charset="utf-8">
+	<meta name ="HandheldFriendly" content="True">
+	<meta name ="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script>
+		var light = new Array();
+		light[0] = 'black';
+		light[1] = 'white';
+		light[2] = 'red';
+		function flip(whichway){
+		document.body.style.backgroundColor = light[whichway];
+		}
+	</script>
+</head>
+<body>
+	<input type="button" value="OFF" onclick="flip(0);">
+	<input type="button" value="ON" onclick="flip(1);">
+	<input type="button" value="RED" onclick="flip(2);">
+</body>
+</hmtl>

@@ -3,38 +3,34 @@ body {
     padding: 0;
     font-size: 95%;
 }
+
 .left {
     width: 15%;
     float: left;
 }
+
 .nav {
     margin: 0;
     padding: 0;
     list-style: none;
 }
+
 .nav li {    
     margin: 0px 0;
     border: 0px;
 }
+
 .nav li a {
     display: block;
     line-height: 3em;
     width: 25%;
     text-decoration: none;
 }
-iframe:focus {
-    outline: none;
-	height: 10000px;
-	width: 800px;
-
-}
 
 img{
 	height: 150px;
 	width: 150px;
 }
-
-
 
 
  

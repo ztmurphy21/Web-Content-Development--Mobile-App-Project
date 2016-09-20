@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    font-size: 100%;
 }
 
 .left {
@@ -29,6 +28,7 @@ body {
 .body ul{
 	background-color:#060B0A;
 	color: #F7F1E7;
+	text-indent: 50px;
 }
 
 img{
@@ -38,7 +38,12 @@ img{
 h1{
 	background-color:#03492C;
 	color:#F7F1E7;
+	font-size: 125%;
+	text-indent:50px;
 }
 a:visited {
     color: #F7F1E7;
+}
+.center{
+	text-indent: 50px;
 }
